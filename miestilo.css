@@ -1,0 +1,66 @@
+﻿a{
+	color: black;
+}
+
+.li2{
+	margin: 0 3px;
+	display: inline-block;
+}
+
+.link1{
+	background-color: lightgrey;
+	display: inline-block;
+	margin: 5px 5px;
+	padding: 5px 5px;
+	border-radius: 10px;
+	box-shadow: 4px 4px 10px #888888
+}
+
+.link2{
+	background-color: lightgreen;
+	display: inline-block;
+	margin: 5px 5px;
+	padding: 5px 5px;
+	border-radius: 10px;
+	box-shadow: 4px 4px #888888
+}
+
+#menu-principal{
+	background-color: lightblue;
+	border-radius: 10px;
+	text-shadow: 2px 2px #fff000;
+	font-family: 'Patua One', cursive;
+}
+
+footer{
+	background-color: yellow;
+	border-radius: 10px;
+}
+
+input[type="button"]{
+	font-size: 30px;
+	background-color: lightgreen;
+}
+
+input[type="submit"]{
+	font-size: 20px;
+	background-color: lightblue;
+}
+
+.cab{
+	background-color: lightblue;
+	border-radius: 10px;
+}
+
+/*Para las aplicaciones moviles*/
+@media screen and (max-width: 800px){
+	nav{
+		display: none;
+	}
+	article{
+		display: block;
+		width: 100%;
+	}
+}
+
+
